@@ -42,7 +42,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center">
             <div className="w-10 h-10 flex items-center justify-center">
               <img 
                 src="/lovable-uploads/33599aa5-bd31-42cd-8445-af1f3e8a0046.png" 
@@ -50,9 +50,6 @@ const Navigation = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <span className="font-space font-bold text-xl gradient-text">
-              IIC-JSS
-            </span>
           </div>
 
           {/* Desktop Navigation */}
