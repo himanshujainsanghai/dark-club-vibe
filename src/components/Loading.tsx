@@ -42,8 +42,12 @@ const Loading = () => {
       <div className="relative z-10 text-center">
         {/* Logo */}
         <div className="mb-8">
-          <div className="w-24 h-24 bg-gradient-to-br from-primary via-secondary to-accent rounded-2xl flex items-center justify-center font-bold text-2xl text-background mx-auto glow-effect animate-pulse">
-            IIC
+          <div className="w-24 h-24 bg-white/10 rounded-2xl flex items-center justify-center mx-auto glow-effect animate-pulse p-2">
+            <img 
+              src="/lovable-uploads/33599aa5-bd31-42cd-8445-af1f3e8a0046.png" 
+              alt="IIC Logo" 
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
 
