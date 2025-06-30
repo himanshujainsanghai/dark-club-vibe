@@ -43,7 +43,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center p-1">
+            <div className="w-10 h-10 flex items-center justify-center">
               <img 
                 src="/lovable-uploads/33599aa5-bd31-42cd-8445-af1f3e8a0046.png" 
                 alt="IIC Logo" 
